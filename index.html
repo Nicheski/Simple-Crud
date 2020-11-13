@@ -1,0 +1,64 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>CRUD</title>
+    </head>
+    <body>
+        
+
+        <div id="main">
+    <div class="form">
+        <form  onsubmit="onFormSubmit()">
+                <div class="form-control">
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                </div>
+                <div class="form-control">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="form-control">
+                    <label for="gender" name="gender">Gender:</label>
+                <select id="select">
+                    <option >Select Your Gender</option>
+                    <option value="male" id="male"> Male</option>
+                    <option value="female" id="female"> Female</option>
+                </select>
+                </div>  
+                <div class="form-control">
+                <button id="submit">Submit</button>
+                <button id="reset">Reset</button>
+          </div>
+                </div>
+            </form>
+        </div>
+        </div>
+
+
+        <table class="list" id="employeeList">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+
+
+        <script src="main.js"></script>
+    </body>
+    </html>

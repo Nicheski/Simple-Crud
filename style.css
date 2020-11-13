@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+
+
+#main {
+    background: #D7FBFF;
+    height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.form {
+    padding: 50px;
+    border-bottom:1px solid #003237;
+    background: #ffffff;
+    border-radius: 30px;
+
+}
+
+
+.form-control {
+    padding: 10px;
+    display: block;
+}
+
+input{
+    display: block;
+    width: 20vw;
+    border:1px solid lightseagreen;
+    padding: 7px;
+    margin: 5px;
+    outline: none;
+   
+}
+
+label {
+    color: darkcyan;
+}
+
+::placeholder {
+    color: lightseagreen;
+}
+
+select {
+    background:  lightseagreen;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+select:hover{
+    background: rgb(17, 67, 73);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#submit {
+    padding: 8px;
+    background: lightseagreen;
+    border:1px solid lightseagreen;
+    color:white;
+    font-weight: bold;
+
+    border-radius: 7px;
+}
+
+
+#reset {
+    background: darkorange;
+    padding: 8px;
+    border:1px solid darkorange;
+    border-radius: 7px;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background: #ffffff;
+    color: lightseagreen;
+}
+
+#reset:hover{
+    background: #ffffff;
+    color: darkorange;
+}
+
+table {  
+    color: #333; 
+    font-family: Helvetica, Arial, sans-serif; 
+    width: 640px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+    width: 100%;
+}
+
+td, th { border: 1px solid #CCC; height: 30px; } 
+
+th {  
+    background: #F3F3F3; 
+    font-weight: bold; 
+}
+
+td {  
+    background: #FAFAFA; 
+    text-align: center; 
+}
+
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+  
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; }  
